@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -805,7 +805,7 @@
 <rectangle x1="35.17773125" y1="48.0783875" x2="35.52316875" y2="48.12156875" layer="21"/>
 <rectangle x1="35.56635" y1="48.0783875" x2="35.86860625" y2="48.12156875" layer="21"/>
 <rectangle x1="36.68903125" y1="48.0783875" x2="37.03446875" y2="48.12156875" layer="21"/>
-<rectangle x1="37.892990625" y1="48.2053875" x2="38.195246875" y2="48.24856875" layer="21"/>
+<rectangle x1="37.638990625" y1="48.0783875" x2="37.941246875" y2="48.12156875" layer="21"/>
 <rectangle x1="38.63213125" y1="48.0783875" x2="39.02075" y2="48.12156875" layer="21"/>
 <rectangle x1="39.40936875" y1="48.0783875" x2="39.66845" y2="48.12156875" layer="21"/>
 <rectangle x1="40.10025" y1="48.0783875" x2="40.40250625" y2="48.12156875" layer="21"/>
@@ -821,7 +821,7 @@
 <rectangle x1="35.17773125" y1="48.12156875" x2="35.52316875" y2="48.16475" layer="21"/>
 <rectangle x1="35.56635" y1="48.12156875" x2="35.86860625" y2="48.16475" layer="21"/>
 <rectangle x1="36.68903125" y1="48.12156875" x2="37.03446875" y2="48.16475" layer="21"/>
-<rectangle x1="37.765990625" y1="45.58156875" x2="38.111428125" y2="45.62475" layer="21"/>
+<rectangle x1="37.638990625" y1="48.12156875" x2="37.984428125" y2="48.16475" layer="21"/>
 <rectangle x1="38.63213125" y1="48.12156875" x2="38.97756875" y2="48.16475" layer="21"/>
 <rectangle x1="39.40936875" y1="48.12156875" x2="39.66845" y2="48.16475" layer="21"/>
 <rectangle x1="40.05706875" y1="48.12156875" x2="40.40250625" y2="48.16475" layer="21"/>
@@ -2005,8 +2005,8 @@ R. Larkey</text>
 <text x="37.973" y="5.461" size="0.8128" layer="25" rot="R90">GND</text>
 <text x="31.242" y="5.207" size="0.8128" layer="25" rot="R90">+5.1</text>
 <text x="61.722" y="60.071" size="0.8128" layer="25" rot="R180">+12</text>
-<text x="99.568" y="64.77" size="0.8128" layer="25" rot="R180">+12</text>
-<text x="99.822" y="72.136" size="0.8128" layer="25" rot="R180">GND</text>
+<text x="99.187" y="69.215" size="0.8128" layer="25" rot="R180">+12</text>
+<text x="99.568" y="64.77" size="0.8128" layer="25" rot="R180">GND</text>
 </plain>
 <libraries>
 <library name="capacitor-wima" urn="urn:adsk.eagle:library:116">
@@ -4546,14 +4546,15 @@ design rules under a new name.</description>
 <contactref element="C1" pad="1"/>
 <contactref element="CHOKE_1" pad="P$1"/>
 <contactref element="J3" pad="1"/>
-<wire x1="65.786" y1="69.977" x2="65.786" y2="61.341" width="0.508" layer="16"/>
-<via x="65.786" y="61.341" extent="1-16" drill="1"/>
-<wire x1="65.786" y1="61.341" x2="65.786" y2="61.468" width="0.508" layer="1"/>
+<wire x1="65.786" y1="69.977" x2="65.786" y2="63.119" width="0.508" layer="16"/>
+<via x="65.786" y="63.119" extent="1-16" drill="1"/>
+<wire x1="65.786" y1="63.119" x2="65.786" y2="61.468" width="0.508" layer="1"/>
 <wire x1="68.808346875" y1="58.445653125" x2="74.482959375" y2="58.445653125" width="0.508" layer="1"/>
 <wire x1="65.786" y1="61.468" x2="68.808346875" y2="58.445653125" width="0.508" layer="1"/>
 <wire x1="74.482959375" y1="58.445653125" x2="80.756759375" y2="58.422540625" width="0.508" layer="1"/>
 <via x="62.865" y="61.341" extent="1-16" drill="1.524"/>
-<wire x1="62.865" y1="61.341" x2="65.786" y2="61.341" width="0.8128" layer="16"/>
+<wire x1="62.865" y1="61.341" x2="65.024" y2="63.119" width="0.8128" layer="16"/>
+<wire x1="65.024" y1="63.119" x2="65.786" y2="63.119" width="0.8128" layer="16"/>
 <wire x1="74.482959375" y1="58.445653125" x2="80.04530625" y2="64.008" width="0.8128" layer="16"/>
 <wire x1="80.04530625" y1="64.008" x2="94.996" y2="64.008" width="0.8128" layer="16"/>
 <wire x1="94.996" y1="64.008" x2="96.774" y2="66.167" width="0.8128" layer="16"/>
@@ -4580,20 +4581,20 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="C9" pad="2"/>
 <polygon width="0.3048" layer="2" isolate="0.3556">
-<vertex x="62.357" y="72.39"/>
-<vertex x="62.357" y="46.99"/>
-<vertex x="44.577" y="46.99"/>
-<vertex x="42.418" y="45.847"/>
-<vertex x="42.037" y="3.81"/>
-<vertex x="95.377" y="3.81"/>
-<vertex x="95.377" y="72.39"/>
+<vertex x="62.23" y="83.82"/>
+<vertex x="62.23" y="62.23"/>
+<vertex x="44.45" y="62.23"/>
+<vertex x="41.91" y="59.69"/>
+<vertex x="41.91" y="19.05"/>
+<vertex x="95.25" y="19.05"/>
+<vertex x="95.25" y="83.82"/>
 </polygon>
 <polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="62.357" y="72.39"/>
 <vertex x="95.377" y="72.39"/>
 <vertex x="95.377" y="3.81"/>
 <vertex x="42.037" y="3.81"/>
-<vertex x="42.418" y="45.72"/>
+<vertex x="42.037" y="44.45"/>
 <vertex x="44.577" y="46.99"/>
 <vertex x="62.357" y="46.99"/>
 </polygon>
@@ -4646,10 +4647,9 @@ design rules under a new name.</description>
 <contactref element="J2" pad="2"/>
 <contactref element="U$5" pad="P$2"/>
 <wire x1="117.419" y1="70.104" x2="117.419" y2="66.873" width="0.8128" layer="1"/>
+<wire x1="116.713" y1="66.167" x2="100.584" y2="66.167" width="0.8128" layer="1"/>
+<via x="100.584" y="66.167" extent="1-16" drill="1.524"/>
 <wire x1="117.419" y1="66.873" x2="116.713" y2="66.167" width="0.8128" layer="1"/>
-<wire x1="110.997" y1="59.563" x2="110.997" y2="60.453" width="0.8128" layer="1"/>
-<wire x1="110.997" y1="60.453" x2="100.457" y2="69.977" width="0.8128" layer="1"/>
-<via x="100.457" y="69.977" extent="1-16" drill="1.524"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$1" pad="-VOUT"/>
@@ -4801,14 +4801,16 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="C12" pad="-"/>
 <polygon width="0.3048" layer="2" isolate="0.3048">
-<vertex x="59.309" y="72.39"/>
-<vertex x="59.436" y="49.657"/>
-<vertex x="40.767" y="49.53"/>
-<vertex x="38.227" y="48.133"/>
-<vertex x="38.227" y="3.81"/>
-<vertex x="5.207" y="3.81"/>
-<vertex x="5.08" y="67.183"/>
-<vertex x="10.033" y="72.39"/>
+<vertex x="57.15" y="87.63"/>
+<vertex x="57.15" y="66.04"/>
+<vertex x="40.64" y="66.04"/>
+<vertex x="38.1" y="63.5"/>
+<vertex x="38.1" y="31.75"/>
+<vertex x="35.56" y="29.21"/>
+<vertex x="7.62" y="29.21"/>
+<vertex x="5.08" y="31.75"/>
+<vertex x="5.08" y="82.55"/>
+<vertex x="10.16" y="87.63"/>
 </polygon>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="5.207" y="67.31"/>
@@ -4849,9 +4851,8 @@ design rules under a new name.</description>
 <contactref element="J2" pad="1"/>
 <wire x1="114.046" y1="63.373" x2="113.919" y2="70.104" width="0.508" layer="16"/>
 <wire x1="113.919" y1="70.104" x2="113.792" y2="69.977" width="0.8128" layer="16"/>
-<wire x1="113.919" y1="70.104" x2="109.982" y2="66.167" width="0.8128" layer="16"/>
-<wire x1="109.982" y1="66.167" x2="100.584" y2="66.167" width="0.8128" layer="16"/>
-<via x="100.584" y="66.167" extent="1-16" drill="1.524"/>
+<wire x1="113.792" y1="69.977" x2="100.584" y2="69.977" width="0.8128" layer="16"/>
+<via x="100.584" y="69.977" extent="1-16" drill="1.524"/>
 </signal>
 <signal name="N$27">
 <contactref element="U2" pad="2"/>
@@ -4863,14 +4864,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="OUT_GND">
 <polygon width="0.3048" layer="2" isolate="0.3048">
-<vertex x="136.017" y="72.263"/>
-<vertex x="142.24" y="60.706"/>
-<vertex x="142.494" y="9.779"/>
-<vertex x="137.414" y="3.81"/>
-<vertex x="104.144571875" y="3.7973"/>
-<vertex x="99.314" y="13.97"/>
-<vertex x="99.06" y="60.706"/>
-<vertex x="105.283" y="72.39"/>
+<vertex x="135.89" y="83.82"/>
+<vertex x="142.24" y="76.2"/>
+<vertex x="142.24" y="29.21"/>
+<vertex x="137.16" y="19.05"/>
+<vertex x="104.017571875" y="19.0373"/>
+<vertex x="99.06" y="29.21"/>
+<vertex x="99.06" y="76.2"/>
+<vertex x="105.41" y="83.82"/>
 </polygon>
 </signal>
 <signal name="N$26">

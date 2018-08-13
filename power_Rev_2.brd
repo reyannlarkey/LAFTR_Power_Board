@@ -2006,7 +2006,7 @@ R. Larkey</text>
 <text x="31.242" y="5.207" size="0.8128" layer="25" rot="R90">+5.1</text>
 <text x="61.722" y="60.071" size="0.8128" layer="25" rot="R180">+12</text>
 <text x="99.568" y="64.77" size="0.8128" layer="25" rot="R180">+12</text>
-<text x="99.822" y="72.136" size="0.8128" layer="25" rot="R180">GND</text>
+<text x="99.695" y="68.834" size="0.8128" layer="25" rot="R180">GND</text>
 </plain>
 <libraries>
 <library name="capacitor-wima" urn="urn:adsk.eagle:library:116">
