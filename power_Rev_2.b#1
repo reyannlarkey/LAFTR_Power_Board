@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,7 +9,7 @@
 <grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="59" fill="0" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="31" fill="3" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="31" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="13" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -805,7 +805,7 @@
 <rectangle x1="35.17773125" y1="48.0783875" x2="35.52316875" y2="48.12156875" layer="21"/>
 <rectangle x1="35.56635" y1="48.0783875" x2="35.86860625" y2="48.12156875" layer="21"/>
 <rectangle x1="36.68903125" y1="48.0783875" x2="37.03446875" y2="48.12156875" layer="21"/>
-<rectangle x1="37.638990625" y1="48.0783875" x2="37.941246875" y2="48.12156875" layer="21"/>
+<rectangle x1="37.892990625" y1="48.2053875" x2="38.195246875" y2="48.24856875" layer="21"/>
 <rectangle x1="38.63213125" y1="48.0783875" x2="39.02075" y2="48.12156875" layer="21"/>
 <rectangle x1="39.40936875" y1="48.0783875" x2="39.66845" y2="48.12156875" layer="21"/>
 <rectangle x1="40.10025" y1="48.0783875" x2="40.40250625" y2="48.12156875" layer="21"/>
@@ -821,7 +821,7 @@
 <rectangle x1="35.17773125" y1="48.12156875" x2="35.52316875" y2="48.16475" layer="21"/>
 <rectangle x1="35.56635" y1="48.12156875" x2="35.86860625" y2="48.16475" layer="21"/>
 <rectangle x1="36.68903125" y1="48.12156875" x2="37.03446875" y2="48.16475" layer="21"/>
-<rectangle x1="37.638990625" y1="48.12156875" x2="37.984428125" y2="48.16475" layer="21"/>
+<rectangle x1="37.765990625" y1="45.58156875" x2="38.111428125" y2="45.62475" layer="21"/>
 <rectangle x1="38.63213125" y1="48.12156875" x2="38.97756875" y2="48.16475" layer="21"/>
 <rectangle x1="39.40936875" y1="48.12156875" x2="39.66845" y2="48.16475" layer="21"/>
 <rectangle x1="40.05706875" y1="48.12156875" x2="40.40250625" y2="48.16475" layer="21"/>
@@ -4581,20 +4581,20 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="C9" pad="2"/>
 <polygon width="0.3048" layer="2" isolate="0.3556">
-<vertex x="62.23" y="83.82"/>
-<vertex x="62.23" y="62.23"/>
-<vertex x="44.45" y="62.23"/>
-<vertex x="41.91" y="59.69"/>
-<vertex x="41.91" y="19.05"/>
-<vertex x="95.25" y="19.05"/>
-<vertex x="95.25" y="83.82"/>
+<vertex x="62.357" y="72.39"/>
+<vertex x="62.357" y="46.99"/>
+<vertex x="44.577" y="46.99"/>
+<vertex x="42.418" y="45.847"/>
+<vertex x="42.037" y="3.81"/>
+<vertex x="95.377" y="3.81"/>
+<vertex x="95.377" y="72.39"/>
 </polygon>
 <polygon width="0.1524" layer="1" isolate="0.3048">
 <vertex x="62.357" y="72.39"/>
 <vertex x="95.377" y="72.39"/>
 <vertex x="95.377" y="3.81"/>
 <vertex x="42.037" y="3.81"/>
-<vertex x="42.037" y="44.45"/>
+<vertex x="42.418" y="45.72"/>
 <vertex x="44.577" y="46.99"/>
 <vertex x="62.357" y="46.99"/>
 </polygon>
@@ -4801,16 +4801,14 @@ design rules under a new name.</description>
 <contactref element="C13" pad="2"/>
 <contactref element="C12" pad="-"/>
 <polygon width="0.3048" layer="2" isolate="0.3048">
-<vertex x="57.15" y="87.63"/>
-<vertex x="57.15" y="66.04"/>
-<vertex x="40.64" y="66.04"/>
-<vertex x="38.1" y="63.5"/>
-<vertex x="38.1" y="31.75"/>
-<vertex x="35.56" y="29.21"/>
-<vertex x="7.62" y="29.21"/>
-<vertex x="5.08" y="31.75"/>
-<vertex x="5.08" y="82.55"/>
-<vertex x="10.16" y="87.63"/>
+<vertex x="59.309" y="72.39"/>
+<vertex x="59.436" y="49.657"/>
+<vertex x="40.767" y="49.53"/>
+<vertex x="38.227" y="48.133"/>
+<vertex x="38.227" y="3.81"/>
+<vertex x="5.207" y="3.81"/>
+<vertex x="5.08" y="67.183"/>
+<vertex x="10.033" y="72.39"/>
 </polygon>
 <polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="5.207" y="67.31"/>
@@ -4864,14 +4862,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="OUT_GND">
 <polygon width="0.3048" layer="2" isolate="0.3048">
-<vertex x="135.89" y="83.82"/>
-<vertex x="142.24" y="76.2"/>
-<vertex x="142.24" y="29.21"/>
-<vertex x="137.16" y="19.05"/>
-<vertex x="104.017571875" y="19.0373"/>
-<vertex x="99.06" y="29.21"/>
-<vertex x="99.06" y="76.2"/>
-<vertex x="105.41" y="83.82"/>
+<vertex x="136.017" y="72.263"/>
+<vertex x="142.24" y="60.706"/>
+<vertex x="142.494" y="9.779"/>
+<vertex x="137.414" y="3.81"/>
+<vertex x="104.144571875" y="3.7973"/>
+<vertex x="99.314" y="13.97"/>
+<vertex x="99.06" y="60.706"/>
+<vertex x="105.283" y="72.39"/>
 </polygon>
 </signal>
 <signal name="N$26">
